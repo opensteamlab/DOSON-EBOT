@@ -9,7 +9,7 @@ git clone https://github.com/opensteamlab/DOSON-EBOT.git
 ```
 hoặc đơn giản hơn là:
 
-![Screenshot 2025-03-02 210352](https://github.com/user-attachments/assets/e8f949ed-ef49-41d5-8625-1de2056d6239)
+![Screenshot 2025-03-04 201954](https://github.com/user-attachments/assets/9f88013f-bd33-414c-bb8b-6925d1b13b79)
 
 sau khi tải về các bạn có thể giải nén và truy cập thư mục vừa giải nén.
 # Hướng dẫn chi tiết cài đặt
@@ -20,13 +20,17 @@ sau khi tải về các bạn có thể giải nén và truy cập thư mục v�
 *Đảm bảo rằng máy tính của các bạn đã cài đặt ngôn ngữ python.*
 
 Link hướng dẫn tải python: https://www.digitalocean.com/community/tutorials/install-python-windows-10
-- Cần chuyển đến thư mục Desktop_Version và cài đật tất cả các thư viện cần thiết với lệnh
+
+- Với những bạn đang mở folder được giải nén mở mục Desktop_Version và chọn **Open in Terminal**
+
+![Screenshot 2025-03-04 205238](https://github.com/user-attachments/assets/d5c64266-3d72-4abb-a223-c4d3b99ac392)
+
+- Cài đặt tất cả các thư viện cần thiết với lệnh
 ```
-cd Desktop_Version && pip install -r requirement.txt
+pip install -r requirement.txt
 ```
-- Với những bạn đang mở folder được giải nén chọn **Open in Terminal**
-![Screenshot 2025-03-02 213002](https://github.com/user-attachments/assets/57e3df6a-ff04-41de-be78-9aa73cc90d51)
-- Và nhập lệnh sau: 
+
+- Và nhập lệnh sau để chạy chương trình: 
 ```
 python ESP32_Dekstop_Application.py
 ```
