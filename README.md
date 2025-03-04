@@ -20,9 +20,9 @@ sau khi tải về các bạn có thể giải nén và truy cập thư mục v�
 *Đảm bảo rằng máy tính của các bạn đã cài đặt ngôn ngữ python.*
 
 Link hướng dẫn tải python: https://www.digitalocean.com/community/tutorials/install-python-windows-10
-- Cần cài đật tất cả các thư viện cần thiết với lệnh
+- Cần chuyển đến thư mục Desktop_Version và cài đật tất cả các thư viện cần thiết với lệnh
 ```
-pip install -r requirement.txt
+cd Desktop_Version && pip install -r requirement.txt
 ```
 - Với những bạn đang mở folder được giải nén chọn **Open in Terminal**
 ![Screenshot 2025-03-02 213002](https://github.com/user-attachments/assets/57e3df6a-ff04-41de-be78-9aa73cc90d51)
@@ -32,7 +32,7 @@ python ESP32_Dekstop_Application.py
 ```
 - Với những bạn đang ở trong sẵn terminal sau khi vừa nhập lệnh **git clone** thì ta chỉ cần chuyển tới vùng folder vừa giải nén bằng lệnh:
 ```
-cd DOSON-EBOT-main
+cd DOSON-EBOT-main\Desktop_Version
 ```
 - Cuối cùng nhập lệnh này để hoàn tất việc chạy chương trình điều khiển Desktop:
 ```
