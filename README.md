@@ -5,7 +5,7 @@ Link hướng dẫn tải: https://phoenixnap.com/kb/how-to-install-git-windows
 - Clone bản repo này về với lệnh trên terminal:
 
 ```
-git clone [https://github.com/PXDAT/DOSON-EBOT.git](https://github.com/opensteamlab/DOSON-EBOT.git)
+git clone https://github.com/opensteamlab/DOSON-EBOT.git
 ```
 hoặc đơn giản hơn là:
 
