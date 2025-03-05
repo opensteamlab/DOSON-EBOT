@@ -1,7 +1,7 @@
 # Trước khi cài đặt
 *Máy tính cần cài đặt trước git(nếu muốn sử dụng trên terminal)*
 
-Link hướng dẫn tải: https://phoenixnap.com/kb/how-to-install-git-windows
+<ins>Link hướng dẫn tải:</ins> https://phoenixnap.com/kb/how-to-install-git-windows
 - Clone bản repo này về với lệnh trên terminal:
 
 ```
@@ -9,17 +9,17 @@ git clone https://github.com/opensteamlab/DOSON-EBOT.git
 ```
 hoặc đơn giản hơn là:
 
-![Screenshot 2025-03-04 201954](https://github.com/user-attachments/assets/9f88013f-bd33-414c-bb8b-6925d1b13b79)
+![Screenshot 2025-03-05 100715](https://github.com/user-attachments/assets/339ba916-bc0e-4528-bb19-3b8fdc6a3b33)
 
 sau khi tải về các bạn có thể giải nén và truy cập thư mục vừa giải nén.
 # Hướng dẫn chi tiết cài đặt
-- Hướng dẫn cài đặt và setup EBOT với Arduino IDE: https://github.com/sam-espiol/EBOT-setup-with-Arduino-IDE/blob/main/EBOT-setup-with-Arduino-IDE.md
-- Hướng dẫn cài đặt và setup EBOT với platformio: https://github.com/sam-espiol/EBOT-setup-with-platformio/blob/main/EBOT-setup-with-platformio.md
+- <ins>Hướng dẫn cài đặt và setup EBOT với Arduino IDE</ins>: https://github.com/sam-espiol/EBOT-setup-with-Arduino-IDE/blob/main/EBOT-setup-with-Arduino-IDE.md
+- <ins>Hướng dẫn cài đặt và setup EBOT với platformio</ins>: https://github.com/sam-espiol/EBOT-setup-with-platformio/blob/main/EBOT-setup-with-platformio.md
 
 # Điều khiển thông qua Desktop: 
 *Đảm bảo rằng máy tính của các bạn đã cài đặt ngôn ngữ python.*
 
-Link hướng dẫn tải python: https://www.digitalocean.com/community/tutorials/install-python-windows-10
+<ins>Link hướng dẫn tải python</ins>: https://www.digitalocean.com/community/tutorials/install-python-windows-10
 
 - Với những bạn đang mở folder được giải nén mở mục Desktop_Version và chọn **Open in Terminal**
 
@@ -47,32 +47,32 @@ python ESP32_Dekstop_Application.py
 
 **Đây chỉ là hướng dẫn cho những bạn muốn tự tinh chỉnh phần mềm theo sở thích, ý muốn cá nhân còn ai không muốn có thể tải và sử dụng luôn phần mềm điều khiển Ebot*
 
-<ins>Link tải phần mềm:</ins> https://drive.google.com/drive/folders/1S_5SukDUP2q2geEFwnhd3IsIMWXxMDIf?usp=sharing
+<ins>Link tải phần mềm</ins>: https://drive.google.com/drive/folders/1S_5SukDUP2q2geEFwnhd3IsIMWXxMDIf?usp=sharing
 
 **Để dễ dàng cài đặt hệ điều hành của bạn cần chạy windows 10/11 phiên bản pro hoặc linux với distro thuộc nhánh Debian(Ubuntu, Linux Mint, Lubuntu, v.v)*
 
 **Với các máy chạy hệ điều hành Windows cần cài đặt trước WSL2 (recommend) để dễ dàng giả lập hoặc có thể tải những phần mềm máy ảo như Virtual Box hoặc VMware Workstation Player hoặc VMware Workstation Pro để có thể dễ dàng hơn trong quá trình chỉnh sửa phần mềm. Tuy nhiên để cho đơn giản thì đây chỉ là hướng dẫn sử dụng với WSL2*
 
-Link tải WSL2: https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10
+<ins>Link tải WSL2</ins>: https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10
 
-Link tải Ubuntu24-04 trên WSL2: https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/
+<ins>Link tải Ubuntu24-04 trên WSL2</ins>: https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/
 
 **Phần mềm chỉ chạy trên những thiết bị sử dụng hệ điều hành android 5 trở lên và bật chế độ nhà phát triển cùng với chế độ File transfer*
 
 *(Vì mỗi máy sẽ có cài đặt riêng nên hướng dẫn sau đây chỉ mang tính tham khảo, bạn có thể tra bằng cách gõ từ khóa "developer mode/ File transfer + <tên thiết bị các bạn đang sử dụng>")*
 
-Link hướng dẫn bật developer mode: https://www.youtube.com/watch?v=vYsLR1U_j5c
+<ins>Link hướng dẫn bật developer mode</ins>: https://www.youtube.com/watch?v=vYsLR1U_j5c
 
-Link hướng dẫn để chế độ File transfer: https://www.youtube.com/watch?v=yKGlRduZ_sk
+<ins>Link hướng dẫn để chế độ File transfer</ins>: https://www.youtube.com/watch?v=yKGlRduZ_sk
 
 ## Chi tiết cài đặt
 - Sau khi cài đặt xong WSL2 và Ubuntu ta vào mục Linux > Ubuntu-24.04 > home > ubuntu > paste file DOSON-EBOT-main.zip vừa tải về trong phân vùng này
 
-![Screenshot 2025-03-04 093442](https://github.com/user-attachments/assets/aeed77ee-5380-4af3-aa6c-41583589295e)
+![Screenshot 2025-03-05 102251](https://github.com/user-attachments/assets/5c492799-e070-44ba-96a3-1056e2afc3a2)
 
 - Tiếp theo giải nén và mở Ubuntu-24.04
 
-![Screenshot 2025-03-04 093802](https://github.com/user-attachments/assets/21b40bb6-ac30-49bb-88b3-1df9c002c4ae)
+![Screenshot 2025-03-05 102512](https://github.com/user-attachments/assets/27a4be59-382f-42be-8a67-2001c0e91c32)
 
 - Nhập lệnh sau để truy cập vào thư mục vừa được giải nén
 
@@ -174,11 +174,11 @@ bấm tổ hợp phím ESC + Shift + G và paste lệnh này vào dòng trống 
 export PATH=$PATH:~/.local/bin/
 ```
 
-![Screenshot 2025-03-04 095828](https://github.com/user-attachments/assets/0ec4304f-7a1a-4ffe-bd85-c3bff128bd54)
+![Screenshot 2025-03-05 102842](https://github.com/user-attachments/assets/c7839a59-f0fa-4bd6-8f0f-3c7470f35cb4)
 
 sau khi paste xong bấm ESC gõ ':wq' + bấm Enter để lưu và thoát 
 
-![Screenshot 2025-03-04 100023](https://github.com/user-attachments/assets/641a8345-e4bf-4cc5-88f6-40322a68393e)
+![Screenshot 2025-03-05 102927](https://github.com/user-attachments/assets/7feb6f1d-b536-4bec-8784-df0d046854ef)
 
 - Tiếp theo ta cần tải automake bằng lệnh:
 
@@ -198,7 +198,7 @@ paste đoạn mã sau:
 deb http://archive.ubuntu.com/ubuntu noble universe main
 ```
 
-![Screenshot 2025-03-04 100549](https://github.com/user-attachments/assets/fce07ce4-e74d-4ca5-bbb3-a0cc553eedb7)
+![Screenshot 2025-03-05 103123](https://github.com/user-attachments/assets/0cf1f2bc-9eb1-40b9-8ff9-f166732c2363)
 
 bấm ESC + gõ lệnh ':wq' + bấm Enter để lưu và thoát
 - Sau đó cập nhật lại những thay đổi vừa rồi
@@ -219,7 +219,7 @@ link tải adb: [platform-tools-latest-windows.zip](https://github.com/user-atta
 
 sau khi tải xong và giải nén ra folder platform-tools, chuyển folder này vào chính ổ C:
 
-![Screenshot 2025-03-04 101942](https://github.com/user-attachments/assets/d16a4fe0-2919-490a-8286-d652e05e66af)
+![Screenshot 2025-03-05 103325](https://github.com/user-attachments/assets/0451e017-10b6-4092-813b-1cd95f6b6458)
 
 - Tiếp theo kết nối điện thoại vào máy tính (dây kết nối cần có khả năng truyền dữ liệu) mở CMD trên máy tính windows và nhập lệnh
 ```
