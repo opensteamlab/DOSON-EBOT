@@ -36,7 +36,7 @@ python ESP32_Dekstop_Application.py
 ```
 - Với những bạn đang ở trong sẵn terminal sau khi vừa nhập lệnh **git clone** thì ta chỉ cần chuyển tới vùng folder vừa giải nén bằng lệnh:
 ```
-cd DOSON-EBOT-main\Desktop_Version
+cd DOSON-EBOT-main\Desktop_Version && pip install -r requirement.txt
 ```
 - Cuối cùng nhập lệnh này để hoàn tất việc chạy chương trình điều khiển Desktop:
 ```
