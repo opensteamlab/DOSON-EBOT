@@ -215,7 +215,8 @@ pip install setuptools
 ![image](https://github.com/user-attachments/assets/b99dd29f-501c-4dd3-81ef-0503fb2b6b71)
 
 - Tiếp theo tải công cụ adb trên laptop windows:
-link tải adb: [platform-tools-latest-windows.zip](https://github.com/user-attachments/files/19063548/platform-tools-latest-windows.zip)
+
+<ins>link tải adb</ins>: [platform-tools-latest-windows.zip](https://github.com/user-attachments/files/19063548/platform-tools-latest-windows.zip)
 
 sau khi tải xong và giải nén ra folder platform-tools, chuyển folder này vào chính ổ C:
 
